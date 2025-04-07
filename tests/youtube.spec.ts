@@ -46,3 +46,4 @@ test ('Click on a video', async ({ page }) => {
     await expect(page).toHaveURL(/\/watch\?v=/);
     await expect(VideoTitle).toBeVisible();
 })
+
